@@ -1,0 +1,61 @@
+2025-03-19 16:18:05,931 [INFO] USER:ganapuram_bhoomika handlers.py:106:syndicate LOG: Configuration used: C:\Users\ganapuram_bhoomika\AWS\task12\.syndicate-config-dev
+2025-03-19 16:18:06,266 [WARNING] USER:ganapuram_bhoomika __init__.py:190:initialize_project_state LOG: [93mConfig is set and generated but project state does not exist, seems that you've come from the previous version.[0m
+2025-03-19 16:18:06,267 [WARNING] USER:ganapuram_bhoomika __init__.py:193:initialize_project_state LOG: [93mGenerating project state file (.syndicate) from the existing structure...[0m
+2025-03-19 16:18:06,294 [INFO] USER:ganapuram_bhoomika processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-19 16:18:08,219 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:18:09,971 [INFO] USER:ganapuram_bhoomika handlers.py:142:test LOG: Running tests...
+2025-03-19 16:18:09,972 [INFO] USER:ganapuram_bhoomika handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/ganapuram_bhoomika/AWS/task12'.
+2025-03-19 16:18:09,973 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.002081
+2025-03-19 16:18:09,980 [INFO] USER:ganapuram_bhoomika handlers.py:993:assemble LOG: Building artifacts, bundle: task12_250319.161808
+2025-03-19 16:18:09,981 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\jsrc\main\java\com\task12.
+2025-03-19 16:18:09,982 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\src\lambdas.
+2025-03-19 16:18:09,982 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\app\lambdas.
+2025-03-19 16:18:09,982 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\dnapp\lambdas.
+2025-03-19 16:18:09,983 [INFO] USER:ganapuram_bhoomika project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\swagger_src.
+2025-03-19 16:18:09,983 [INFO] USER:ganapuram_bhoomika project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\appsync_src.
+2025-03-19 16:18:09,983 [INFO] USER:ganapuram_bhoomika handlers.py:1014:assemble LOG: Resources for which artifacts need to be built were not found
+2025-03-19 16:18:09,984 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:00.003317
+2025-03-19 16:18:09,989 [INFO] USER:ganapuram_bhoomika handlers.py:1037:package_meta LOG: Package meta, bundle: task12_250319.161808
+2025-03-19 16:18:09,989 [INFO] USER:ganapuram_bhoomika meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/ganapuram_bhoomika/AWS/task12/bundles/task12_250319.161808
+2025-03-19 16:18:09,994 [INFO] USER:ganapuram_bhoomika helper.py:292:write_content_to_file LOG: C:\Users\ganapuram_bhoomika\AWS\task12\.syndicate-config-dev/bundles/task12_250319.161808\build_meta.json file was created.
+2025-03-19 16:18:09,995 [INFO] USER:ganapuram_bhoomika handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-19 16:18:09,995 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.006837
+2025-03-19 16:18:10,212 [INFO] USER:ganapuram_bhoomika handlers.py:1083:upload LOG: Upload bundle: task12_250319.161808
+2025-03-19 16:18:10,700 [INFO] USER:ganapuram_bhoomika bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-19 16:18:11,100 [INFO] USER:ganapuram_bhoomika handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-19 16:18:11,100 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:01.100981
+2025-03-19 16:18:11,106 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage build, elapsed time: 0:00:02.886423
+2025-03-19 16:18:20,989 [INFO] USER:ganapuram_bhoomika handlers.py:106:syndicate LOG: Configuration used: C:\Users\ganapuram_bhoomika\AWS\task12\.syndicate-config-dev
+2025-03-19 16:18:21,326 [INFO] USER:ganapuram_bhoomika processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-19 16:18:23,016 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:18:23,016 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:18:23,423 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:18:23,831 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:18:23,831 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:18:24,182 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:18:24,183 [INFO] USER:ganapuram_bhoomika helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task12
+2025-03-19 16:18:24,539 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:18:24,539 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:18:24,920 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:18:24,920 [INFO] USER:ganapuram_bhoomika helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task12_250319.161808
+2025-03-19 16:18:25,298 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:18:25,298 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:18:25,655 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:18:26,029 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:18:26,029 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:18:26,412 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:18:28,611 [INFO] USER:ganapuram_bhoomika deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-19 16:18:28,611 [INFO] USER:ganapuram_bhoomika deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-19 16:18:29,006 [INFO] USER:ganapuram_bhoomika deployment_processor.py:540:create_deployment_resources LOG: AWS resources were deployed successfully
+2025-03-19 16:18:29,008 [INFO] USER:ganapuram_bhoomika deployment_processor.py:543:create_deployment_resources LOG: Going to apply dynamic changes
+2025-03-19 16:18:29,008 [INFO] USER:ganapuram_bhoomika deployment_processor.py:545:create_deployment_resources LOG: Dynamic changes were applied successfully
+2025-03-19 16:18:29,009 [INFO] USER:ganapuram_bhoomika deployment_processor.py:547:create_deployment_resources LOG: Going to apply post deployment tags
+2025-03-19 16:18:29,017 [INFO] USER:ganapuram_bhoomika group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-03-19 16:18:29,017 [INFO] USER:ganapuram_bhoomika deployment_processor.py:550:create_deployment_resources LOG: Going to create deploy output
+2025-03-19 16:18:29,601 [INFO] USER:ganapuram_bhoomika bundle_processor.py:71:create_deploy_output LOG: Output file with name task12_250319.161808/outputs/task12.json has been created
+2025-03-19 16:18:29,601 [INFO] USER:ganapuram_bhoomika deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task12 was created.
+2025-03-19 16:18:29,602 [INFO] USER:ganapuram_bhoomika handlers.py:347:deploy LOG: Backend resources were deployed.
+2025-03-19 16:18:29,603 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:03.190997
+2025-03-19 16:18:29,989 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:18:29,990 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:18:30,373 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced

@@ -1,0 +1,58 @@
+name: task12
+events:
+- operation: deploy
+  initiator: ganapuram_bhoomika
+  bundle_name: task12_250319.161808
+  deploy_name: task12
+  time_start: '2025-03-19T16:18:26Z'
+  time_end: '2025-03-19T16:18:29Z'
+  duration_sec: 3.191
+  status: succeeded
+  rollback_on_error: false
+- operation: build
+  initiator: ganapuram_bhoomika
+  bundle_name: task12_250319.161808
+  time_start: '2025-03-19T16:18:08Z'
+  time_end: '2025-03-19T16:18:11Z'
+  duration_sec: 2.886
+  status: succeeded
+- operation: upload
+  initiator: ganapuram_bhoomika
+  bundle_name: task12_250319.161808
+  time_start: '2025-03-19T16:18:09Z'
+  time_end: '2025-03-19T16:18:11Z'
+  duration_sec: 1.101
+  status: succeeded
+- operation: package_meta
+  initiator: ganapuram_bhoomika
+  bundle_name: task12_250319.161808
+  time_start: '2025-03-19T16:18:09Z'
+  time_end: '2025-03-19T16:18:09Z'
+  duration_sec: 0.007
+  status: succeeded
+- operation: assemble
+  initiator: ganapuram_bhoomika
+  bundle_name: task12_250319.161808
+  time_start: '2025-03-19T16:18:09Z'
+  time_end: '2025-03-19T16:18:09Z'
+  duration_sec: 0.003
+  status: succeeded
+- operation: test
+  initiator: ganapuram_bhoomika
+  time_start: '2025-03-19T16:18:09Z'
+  time_end: '2025-03-19T16:18:09Z'
+  duration_sec: 0.002
+  status: succeeded
+locks:
+  modification_lock:
+    last_modification_date: '2025-03-19T10:48:29Z'
+    is_locked: false
+    initiator: ganapuram_bhoomika
+latest_deploy:
+  initiator: ganapuram_bhoomika
+  bundle_name: task12_250319.161808
+  deploy_name: task12
+  time_start: '2025-03-19T16:18:26Z'
+  time_end: '2025-03-19T16:18:29Z'
+  duration_sec: 3.191
+  is_succeeded: true
