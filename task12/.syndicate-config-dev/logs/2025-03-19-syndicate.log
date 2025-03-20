@@ -1,61 +1,338 @@
-2025-03-19 16:18:05,931 [INFO] USER:ganapuram_bhoomika handlers.py:106:syndicate LOG: Configuration used: C:\Users\ganapuram_bhoomika\AWS\task12\.syndicate-config-dev
-2025-03-19 16:18:06,266 [WARNING] USER:ganapuram_bhoomika __init__.py:190:initialize_project_state LOG: [93mConfig is set and generated but project state does not exist, seems that you've come from the previous version.[0m
-2025-03-19 16:18:06,267 [WARNING] USER:ganapuram_bhoomika __init__.py:193:initialize_project_state LOG: [93mGenerating project state file (.syndicate) from the existing structure...[0m
-2025-03-19 16:18:06,294 [INFO] USER:ganapuram_bhoomika processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
-2025-03-19 16:18:08,219 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
-2025-03-19 16:18:09,971 [INFO] USER:ganapuram_bhoomika handlers.py:142:test LOG: Running tests...
-2025-03-19 16:18:09,972 [INFO] USER:ganapuram_bhoomika handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/ganapuram_bhoomika/AWS/task12'.
-2025-03-19 16:18:09,973 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.002081
-2025-03-19 16:18:09,980 [INFO] USER:ganapuram_bhoomika handlers.py:993:assemble LOG: Building artifacts, bundle: task12_250319.161808
-2025-03-19 16:18:09,981 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\jsrc\main\java\com\task12.
-2025-03-19 16:18:09,982 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\src\lambdas.
-2025-03-19 16:18:09,982 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\app\lambdas.
-2025-03-19 16:18:09,982 [INFO] USER:ganapuram_bhoomika project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\dnapp\lambdas.
-2025-03-19 16:18:09,983 [INFO] USER:ganapuram_bhoomika project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\swagger_src.
-2025-03-19 16:18:09,983 [INFO] USER:ganapuram_bhoomika project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\ganapuram_bhoomika\AWS\task12\appsync_src.
-2025-03-19 16:18:09,983 [INFO] USER:ganapuram_bhoomika handlers.py:1014:assemble LOG: Resources for which artifacts need to be built were not found
-2025-03-19 16:18:09,984 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:00.003317
-2025-03-19 16:18:09,989 [INFO] USER:ganapuram_bhoomika handlers.py:1037:package_meta LOG: Package meta, bundle: task12_250319.161808
-2025-03-19 16:18:09,989 [INFO] USER:ganapuram_bhoomika meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/ganapuram_bhoomika/AWS/task12/bundles/task12_250319.161808
-2025-03-19 16:18:09,994 [INFO] USER:ganapuram_bhoomika helper.py:292:write_content_to_file LOG: C:\Users\ganapuram_bhoomika\AWS\task12\.syndicate-config-dev/bundles/task12_250319.161808\build_meta.json file was created.
-2025-03-19 16:18:09,995 [INFO] USER:ganapuram_bhoomika handlers.py:1040:package_meta LOG: Meta was configured successfully.
-2025-03-19 16:18:09,995 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.006837
-2025-03-19 16:18:10,212 [INFO] USER:ganapuram_bhoomika handlers.py:1083:upload LOG: Upload bundle: task12_250319.161808
-2025-03-19 16:18:10,700 [INFO] USER:ganapuram_bhoomika bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
-2025-03-19 16:18:11,100 [INFO] USER:ganapuram_bhoomika handlers.py:1090:upload LOG: Bundle was uploaded successfully
-2025-03-19 16:18:11,100 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:01.100981
-2025-03-19 16:18:11,106 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage build, elapsed time: 0:00:02.886423
-2025-03-19 16:18:20,989 [INFO] USER:ganapuram_bhoomika handlers.py:106:syndicate LOG: Configuration used: C:\Users\ganapuram_bhoomika\AWS\task12\.syndicate-config-dev
-2025-03-19 16:18:21,326 [INFO] USER:ganapuram_bhoomika processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
-2025-03-19 16:18:23,016 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
-2025-03-19 16:18:23,016 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
-2025-03-19 16:18:23,423 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
-2025-03-19 16:18:23,831 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
-2025-03-19 16:18:23,831 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
-2025-03-19 16:18:24,182 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
-2025-03-19 16:18:24,183 [INFO] USER:ganapuram_bhoomika helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task12
-2025-03-19 16:18:24,539 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
-2025-03-19 16:18:24,539 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
-2025-03-19 16:18:24,920 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
-2025-03-19 16:18:24,920 [INFO] USER:ganapuram_bhoomika helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task12_250319.161808
-2025-03-19 16:18:25,298 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
-2025-03-19 16:18:25,298 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
-2025-03-19 16:18:25,655 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
-2025-03-19 16:18:26,029 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
-2025-03-19 16:18:26,029 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
-2025-03-19 16:18:26,412 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
-2025-03-19 16:18:28,611 [INFO] USER:ganapuram_bhoomika deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
-2025-03-19 16:18:28,611 [INFO] USER:ganapuram_bhoomika deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
-2025-03-19 16:18:29,006 [INFO] USER:ganapuram_bhoomika deployment_processor.py:540:create_deployment_resources LOG: AWS resources were deployed successfully
-2025-03-19 16:18:29,008 [INFO] USER:ganapuram_bhoomika deployment_processor.py:543:create_deployment_resources LOG: Going to apply dynamic changes
-2025-03-19 16:18:29,008 [INFO] USER:ganapuram_bhoomika deployment_processor.py:545:create_deployment_resources LOG: Dynamic changes were applied successfully
-2025-03-19 16:18:29,009 [INFO] USER:ganapuram_bhoomika deployment_processor.py:547:create_deployment_resources LOG: Going to apply post deployment tags
-2025-03-19 16:18:29,017 [INFO] USER:ganapuram_bhoomika group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
-2025-03-19 16:18:29,017 [INFO] USER:ganapuram_bhoomika deployment_processor.py:550:create_deployment_resources LOG: Going to create deploy output
-2025-03-19 16:18:29,601 [INFO] USER:ganapuram_bhoomika bundle_processor.py:71:create_deploy_output LOG: Output file with name task12_250319.161808/outputs/task12.json has been created
-2025-03-19 16:18:29,601 [INFO] USER:ganapuram_bhoomika deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task12 was created.
-2025-03-19 16:18:29,602 [INFO] USER:ganapuram_bhoomika handlers.py:347:deploy LOG: Backend resources were deployed.
-2025-03-19 16:18:29,603 [INFO] USER:ganapuram_bhoomika helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:03.190997
-2025-03-19 16:18:29,989 [INFO] USER:ganapuram_bhoomika project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
-2025-03-19 16:18:29,990 [INFO] USER:ganapuram_bhoomika project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
-2025-03-19 16:18:30,373 [INFO] USER:ganapuram_bhoomika sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:22:05,670 [INFO] USER:harsh_pruthi handlers.py:106:syndicate LOG: Configuration used: C:\Users\harsh_pruthi\aws-lambda\task12\.syndicate-config-dev
+2025-03-19 16:22:08,152 [INFO] USER:harsh_pruthi processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-19 16:22:09,770 [INFO] USER:harsh_pruthi project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:22:09,770 [INFO] USER:harsh_pruthi project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:22:10,403 [INFO] USER:harsh_pruthi sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:22:12,253 [INFO] USER:harsh_pruthi handlers.py:142:test LOG: Running tests...
+2025-03-19 16:22:12,255 [INFO] USER:harsh_pruthi handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/harsh_pruthi/aws-lambda/task12'.
+2025-03-19 16:22:12,256 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.002970
+2025-03-19 16:22:12,320 [INFO] USER:harsh_pruthi handlers.py:993:assemble LOG: Building artifacts, bundle: task12_250319.162210
+2025-03-19 16:22:12,321 [INFO] USER:harsh_pruthi project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\harsh_pruthi\aws-lambda\task12\jsrc\main\java\com\task12.
+2025-03-19 16:22:12,321 [INFO] USER:harsh_pruthi project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\harsh_pruthi\aws-lambda\task12\src\lambdas.
+2025-03-19 16:22:12,321 [INFO] USER:harsh_pruthi project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\harsh_pruthi\aws-lambda\task12\app\lambdas.
+2025-03-19 16:22:12,322 [INFO] USER:harsh_pruthi project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'api_handler' to the pending ProjectState.
+2025-03-19 16:22:12,323 [INFO] USER:harsh_pruthi project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\harsh_pruthi\aws-lambda\task12\dnapp\lambdas.
+2025-03-19 16:22:12,323 [INFO] USER:harsh_pruthi project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\harsh_pruthi\aws-lambda\task12\swagger_src.
+2025-03-19 16:22:12,324 [INFO] USER:harsh_pruthi project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\harsh_pruthi\aws-lambda\task12\appsync_src.
+2025-03-19 16:22:12,365 [INFO] USER:harsh_pruthi handlers.py:821:assemble_node LOG: Command assemble node: project_path: app 
+2025-03-19 16:22:12,367 [INFO] USER:harsh_pruthi nodejs.py:58:assemble_node_lambdas LOG: Going to package lambdas starting by path C:\Users\harsh_pruthi\aws-lambda\task12\app
+2025-03-19 16:22:12,368 [INFO] USER:harsh_pruthi nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\harsh_pruthi\aws-lambda\task12\app\lambdas\api_handler
+2025-03-19 16:22:13,284 [INFO] USER:harsh_pruthi nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\harsh_pruthi\aws-lambda\task12\.syndicate-config-dev\bundles\task12_250319.162210\api_handler-1.0
+2025-03-19 16:22:29,168 [INFO] USER:harsh_pruthi helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+added 45 packages, and audited 46 packages in 15s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+npm warn deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+
+2025-03-19 16:22:46,480 [INFO] USER:harsh_pruthi handlers.py:830:assemble_node LOG: NodeJS artifacts were prepared successfully.
+2025-03-19 16:22:46,481 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage assemble_node, elapsed time: 0:00:34.115811
+2025-03-19 16:22:46,518 [INFO] USER:harsh_pruthi handlers.py:907:assemble_swagger_ui LOG: Command assemble Swagger UI: project_path: swagger_src 
+2025-03-19 16:22:46,520 [INFO] USER:harsh_pruthi swagger_ui.py:37:assemble_swagger_ui LOG: Swagger UI sources are located by path: C:/Users/harsh_pruthi/aws-lambda/task12/swagger_src
+2025-03-19 16:22:46,520 [INFO] USER:harsh_pruthi swagger_ui.py:41:assemble_swagger_ui LOG: Going to process Swagger UI 'task12_api_ui'
+2025-03-19 16:22:46,520 [INFO] USER:harsh_pruthi swagger_ui.py:63:assemble_swagger_ui LOG: Path to specification file resolved as 'C:/Users/harsh_pruthi/aws-lambda/task12/export/x8y2fml4eb_oas_v3.json'
+2025-03-19 16:22:46,543 [INFO] USER:harsh_pruthi swagger_ui.py:84:assemble_swagger_ui LOG: Swagger UI task12_api_ui was processed successfully
+2025-03-19 16:22:46,544 [INFO] USER:harsh_pruthi handlers.py:911:assemble_swagger_ui LOG: Swagger UI artifacts were prepared successfully.
+2025-03-19 16:22:46,545 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage assemble_swagger_ui, elapsed time: 0:00:00.027529
+2025-03-19 16:22:46,580 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:34.259444
+2025-03-19 16:22:46,611 [INFO] USER:harsh_pruthi handlers.py:1037:package_meta LOG: Package meta, bundle: task12_250319.162210
+2025-03-19 16:22:46,612 [INFO] USER:harsh_pruthi meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/harsh_pruthi/aws-lambda/task12/bundles/task12_250319.162210
+2025-03-19 16:22:46,622 [INFO] USER:harsh_pruthi helper.py:292:write_content_to_file LOG: C:\Users\harsh_pruthi\aws-lambda\task12\.syndicate-config-dev/bundles/task12_250319.162210\build_meta.json file was created.
+2025-03-19 16:22:46,622 [INFO] USER:harsh_pruthi handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-19 16:22:46,623 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.011696
+2025-03-19 16:22:47,948 [INFO] USER:harsh_pruthi handlers.py:1083:upload LOG: Upload bundle: task12_250319.162210
+2025-03-19 16:22:49,381 [INFO] USER:harsh_pruthi bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-19 16:23:09,961 [INFO] USER:harsh_pruthi handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-19 16:23:09,961 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:23.301364
+2025-03-19 16:23:09,983 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage build, elapsed time: 0:00:59.578619
+2025-03-19 16:23:21,852 [INFO] USER:harsh_pruthi handlers.py:106:syndicate LOG: Configuration used: C:\Users\harsh_pruthi\aws-lambda\task12\.syndicate-config-dev
+2025-03-19 16:23:24,040 [INFO] USER:harsh_pruthi processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-19 16:23:25,193 [INFO] USER:harsh_pruthi project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:23:25,193 [INFO] USER:harsh_pruthi project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:23:25,737 [INFO] USER:harsh_pruthi sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:23:26,094 [INFO] USER:harsh_pruthi project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:23:26,094 [INFO] USER:harsh_pruthi project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:23:26,497 [INFO] USER:harsh_pruthi sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:23:26,498 [INFO] USER:harsh_pruthi helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task12
+2025-03-19 16:23:26,857 [INFO] USER:harsh_pruthi project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:23:26,858 [INFO] USER:harsh_pruthi project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:23:27,238 [INFO] USER:harsh_pruthi sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:23:27,238 [INFO] USER:harsh_pruthi helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task12_250319.162210
+2025-03-19 16:23:27,609 [INFO] USER:harsh_pruthi project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:23:27,609 [INFO] USER:harsh_pruthi project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:23:27,993 [INFO] USER:harsh_pruthi sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:23:28,374 [INFO] USER:harsh_pruthi project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:23:28,374 [INFO] USER:harsh_pruthi project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:23:28,755 [INFO] USER:harsh_pruthi sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-19 16:23:30,716 [INFO] USER:harsh_pruthi deployment_processor.py:451:create_deployment_resources LOG: The latest deployment has status failed. Loaded output:
+ {
+    "arn:aws:iam::890742610830:policy/cmtr-4554bf0f-lambda-basic-execution": {
+        "resource_name": "cmtr-4554bf0f-lambda-basic-execution",
+        "resource_meta": {
+            "policy_content": {
+                "Statement": [
+                    {
+                        "Action": [
+                            "logs:CreateLogGroup",
+                            "logs:CreateLogStream",
+                            "logs:PutLogEvents",
+                            "dynamodb:GetItem",
+                            "dynamodb:Query",
+                            "dynamodb:PutItem",
+                            "dynamodb:Batch*",
+                            "dynamodb:DeleteItem",
+                            "ssm:PutParameter",
+                            "ssm:GetParameter",
+                            "kms:Decrypt",
+                            "dynamodb:Scan",
+                            "cognito-idp:DescribeUserPool",
+                            "cognito-idp:GetUser",
+                            "cognito-idp:ListUsers",
+                            "cognito-idp:AdminCreateUser",
+                            "cognito-idp:AdminInitiateAuth",
+                            "cognito-idp:AdminSetUserPassword",
+                            "cognito-idp:GetIdentityProviderByIdentifier",
+                            "cognito-idp:ListUserPools",
+                            "cognito-idp:ListUserPoolClients",
+                            "cognito-idp:AdminRespondToAuthChallenge",
+                            "cognito-idp:AdminConfirmSignUp"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    }
+                ],
+                "Version": "2012-10-17"
+            },
+            "resource_type": "iam_policy",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "4554bf0f"
+            },
+            "processed": true
+        },
+        "description": {
+            "PolicyName": "cmtr-4554bf0f-lambda-basic-execution",
+            "PolicyId": "ANPA46ZDFTOHKKOOQ2ISY",
+            "Path": "/",
+            "DefaultVersionId": "v1",
+            "AttachmentCount": 3,
+            "PermissionsBoundaryUsageCount": 0,
+            "IsAttachable": true,
+            "CreateDate": "2025-03-11T09:09:12+00:00",
+            "UpdateDate": "2025-03-11T09:09:12+00:00",
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "4554bf0f"
+                }
+            ]
+        }
+    },
+    "arn:aws:iam::890742610830:role/cmtr-4554bf0f-api_handler-role": {
+        "resource_name": "cmtr-4554bf0f-api_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-4554bf0f-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "4554bf0f"
+            },
+            "processed": true
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-4554bf0f-api_handler-role",
+            "RoleId": "AROA46ZDFTOHNKC2XNJMK",
+            "CreateDate": "2025-03-18T19:15:02+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600,
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "4554bf0f"
+                }
+            ],
+            "RoleLastUsed": {}
+        }
+    },
+    "arn:aws:s3:::cmtr-4554bf0f-api-ui-hoster": {
+        "resource_name": "cmtr-4554bf0f-api-ui-hoster",
+        "resource_meta": {
+            "resource_type": "s3_bucket",
+            "acl": "private",
+            "cors": [],
+            "policy": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Sid": "WebSiteHostingGetObject",
+                        "Effect": "Allow",
+                        "Principal": "*",
+                        "Action": [
+                            "s3:GetObject"
+                        ],
+                        "Resource": [
+                            "arn:aws:s3:::cmtr-4554bf0f-api-ui-hoster/*"
+                        ],
+                        "Condition": {
+                            "IpAddress": {
+                                "aws:SourceIp": [
+                                    "18.197.177.98/32"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "public_access_block": {
+                "block_public_acls": true,
+                "ignore_public_acls": true,
+                "block_public_policy": true,
+                "restrict_public_buckets": true
+            },
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "4554bf0f"
+            },
+            "website_hosting": {
+                "enabled": true,
+                "index_document": "index.html",
+                "error_document": "error.html"
+            },
+            "processed": true
+        },
+        "description": {
+            "bucket_acl": {
+                "ResponseMetadata": {
+                    "RequestId": "HH7F7FPHQMVKWK4A",
+                    "HostId": "ufUZjyFfo+SwoRtempCA+PGwfOhB1IQJbExoKLmv9J7f6fPXb0TOlZr6r+X55N8GhKhy+HXv6iw=",
+                    "HTTPStatusCode": 200,
+                    "HTTPHeaders": {
+                        "x-amz-id-2": "ufUZjyFfo+SwoRtempCA+PGwfOhB1IQJbExoKLmv9J7f6fPXb0TOlZr6r+X55N8GhKhy+HXv6iw=",
+                        "x-amz-request-id": "HH7F7FPHQMVKWK4A",
+                        "date": "Wed, 19 Mar 2025 09:17:07 GMT",
+                        "content-type": "application/xml",
+                        "transfer-encoding": "chunked",
+                        "server": "AmazonS3"
+                    },
+                    "RetryAttempts": 0
+                },
+                "Owner": {
+                    "DisplayName": "SpecialEPM-CMTRSandBox_16",
+                    "ID": "733f1c5c1cd6f1d1d1a5bc5fb918415450b90fa0ffab39ebe00c3e291ce1334d"
+                },
+                "Grants": [
+                    {
+                        "Grantee": {
+                            "DisplayName": "SpecialEPM-CMTRSandBox_16",
+                            "ID": "733f1c5c1cd6f1d1d1a5bc5fb918415450b90fa0ffab39ebe00c3e291ce1334d",
+                            "Type": "CanonicalUser"
+                        },
+                        "Permission": "FULL_CONTROL"
+                    }
+                ]
+            },
+            "location": {
+                "ResponseMetadata": {
+                    "RequestId": "P6M8WDM9MXX63H8W",
+                    "HostId": "zaU2wkWishWE1xCt/fRzjcD4iOLsF7Lve3DqJ1qq+sKX5YM+RDl5lLKXz/frDFXpPuEFPL13anE=",
+                    "HTTPStatusCode": 200,
+                    "HTTPHeaders": {
+                        "x-amz-id-2": "zaU2wkWishWE1xCt/fRzjcD4iOLsF7Lve3DqJ1qq+sKX5YM+RDl5lLKXz/frDFXpPuEFPL13anE=",
+                        "x-amz-request-id": "P6M8WDM9MXX63H8W",
+                        "date": "Wed, 19 Mar 2025 09:17:08 GMT",
+                        "content-type": "application/xml",
+                        "transfer-encoding": "chunked",
+                        "server": "AmazonS3"
+                    },
+                    "RetryAttempts": 0
+                },
+                "LocationConstraint": "eu-west-1"
+            }
+        }
+    }
+}
+2025-03-19 16:23:30,887 [INFO] USER:harsh_pruthi deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-19 16:23:30,888 [INFO] USER:harsh_pruthi deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-19 16:23:30,888 [WARNING] USER:harsh_pruthi deployment_processor.py:275:deploy_resources LOG: Resource dependency with higher deployment priority from a resource with equal or lower deployment priority detected. Deployment may take a little bit more time than usual.
+2025-03-19 16:23:31,064 [INFO] USER:harsh_pruthi deployment_processor.py:181:_process_resources_with_dependencies LOG: Processing iam_policy resources
+2025-03-19 16:23:32,949 [INFO] USER:harsh_pruthi iam_resource.py:120:_create_policy_from_meta LOG: Created IAM policy cmtr-4554bf0f-lambda-basic-execution.
+2025-03-19 16:23:33,265 [INFO] USER:harsh_pruthi deployment_processor.py:181:_process_resources_with_dependencies LOG: Processing iam_role resources
+2025-03-19 16:23:48,450 [INFO] USER:harsh_pruthi iam_resource.py:183:_create_role_from_meta LOG: Created IAM role cmtr-4554bf0f-api_handler-role.
+2025-03-19 16:23:48,450 [INFO] USER:harsh_pruthi deployment_processor.py:181:_process_resources_with_dependencies LOG: Processing dynamodb_table resources
+2025-03-19 16:23:49,318 [ERROR] USER:harsh_pruthi deployment_processor.py:387:process_response LOG: Caused by resource named cmtr-4554bf0f-${tables_table}. An error occurred (ValidationException) when calling the DescribeTable operation: 1 validation error detected: Value 'cmtr-4554bf0f-${tables_table}' at 'tableName' failed to satisfy constraint: Member must satisfy regular expression pattern: [a-zA-Z0-9_.-]+
+2025-03-19 16:23:49,486 [ERROR] USER:harsh_pruthi deployment_processor.py:387:process_response LOG: Caused by resource named cmtr-4554bf0f-${reservations_table}. An error occurred (ValidationException) when calling the DescribeTable operation: 1 validation error detected: Value 'cmtr-4554bf0f-${reservations_table}' at 'tableName' failed to satisfy constraint: Member must satisfy regular expression pattern: [a-zA-Z0-9_.-]+
+2025-03-19 16:23:49,487 [INFO] USER:harsh_pruthi deployment_processor.py:181:_process_resources_with_dependencies LOG: Processing s3_bucket resources
+2025-03-19 16:23:50,472 [WARNING] USER:harsh_pruthi s3_resource.py:109:_create_s3_bucket_from_meta LOG: cmtr-4554bf0f-api-ui-hoster bucket exists.
+2025-03-19 16:23:51,743 [INFO] USER:harsh_pruthi deployment_processor.py:159:_process_resources_with_dependencies LOG: Processing 'lambda' 'cmtr-4554bf0f-api_handler' dependencies [
+    {
+        "resource_name": "cmtr-4554bf0f-${booking_userpool}",
+        "resource_type": "cognito_idp"
+    }
+]
+2025-03-19 16:23:51,743 [INFO] USER:harsh_pruthi deployment_processor.py:181:_process_resources_with_dependencies LOG: Processing cognito_idp resources
+2025-03-19 16:23:52,634 [WARNING] USER:harsh_pruthi cognito_identity_provider_connection.py:190:if_pool_exists_by_name LOG: Cognito User Pool with the name "cmtr-4554bf0f-${booking_userpool}" not found in the region eu-west-1
+2025-03-19 16:23:52,634 [INFO] USER:harsh_pruthi cognito_user_pool_resource.py:79:_create_cognito_user_pool_from_meta LOG: Creating user pool cmtr-4554bf0f-${booking_userpool}
+2025-03-19 16:23:52,838 [ERROR] USER:harsh_pruthi deployment_processor.py:387:process_response LOG: Caused by resource named cmtr-4554bf0f-${booking_userpool}. An error occurred (InvalidParameterException) when calling the CreateUserPool operation: 1 validation error detected: Value 'cmtr-4554bf0f-${booking_userpool}' at 'poolName' failed to satisfy constraint: Member must satisfy regular expression pattern: [\w\s+=,.@-]+
+2025-03-19 16:23:53,056 [WARNING] USER:harsh_pruthi cognito_identity_provider_connection.py:190:if_pool_exists_by_name LOG: Cognito User Pool with the name "cmtr-4554bf0f-${booking_userpool}" not found in the region eu-west-1
+2025-03-19 16:23:53,838 [WARNING] USER:harsh_pruthi bundle_processor.py:110:remove_failed_deploy_output LOG: Failed output file for deploy task12 does not exist
+2025-03-19 16:23:53,838 [INFO] USER:harsh_pruthi deployment_processor.py:527:create_deployment_resources LOG: Going to apply post deployment tags
+2025-03-19 16:23:53,842 [INFO] USER:harsh_pruthi group_tagging_api_resource.py:59:_extract_arns LOG: Extracting and processing arns from output
+2025-03-19 16:23:55,042 [INFO] USER:harsh_pruthi group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-03-19 16:23:55,043 [INFO] USER:harsh_pruthi deployment_processor.py:530:create_deployment_resources LOG: Going to create deploy output
+2025-03-19 16:23:55,497 [INFO] USER:harsh_pruthi bundle_processor.py:71:create_deploy_output LOG: Output file with name task12_250319.162210/outputs/task12_failed.json has been created
+2025-03-19 16:23:55,497 [INFO] USER:harsh_pruthi deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task12 was created.
+2025-03-19 16:23:55,497 [WARNING] USER:harsh_pruthi handlers.py:344:deploy LOG: Backend resources were deployed with errors. See deploy output file.
+2025-03-19 16:23:55,498 [INFO] USER:harsh_pruthi helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:26.742749
+2025-03-19 16:23:55,876 [INFO] USER:harsh_pruthi project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-19 16:23:55,877 [INFO] USER:harsh_pruthi project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-19 16:23:56,242 [INFO] USER:harsh_pruthi sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
